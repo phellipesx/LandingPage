@@ -1,0 +1,253 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+header {
+    padding: 50px 0px 100px 0px;
+    background-color: #384841;
+    background-size: 100%;
+}
+
+.background-image {
+    background-image: url(./assests/spring-summer-landscape-with-meadow-flowers-blue-sky-with-clouds.jpg);
+    background-position: center center;
+}
+
+#logo {
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+#texto_1 h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat Alternates";
+    font-size: 40px;
+    margin: 0px;
+}
+
+#texto_2 p {
+    margin: 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat Alternates";
+    font-size: 25px;
+}
+
+#contexto h3 {
+    margin: 0px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: "Montserrat Alternates";
+    font-size: 35px;
+}
+
+#contexto p {
+    margin: 0px;
+    padding: 20px 500px 100px 500px;
+    color: #fff;
+    text-align: center;
+    font-family: "Montserrat Alternates";
+    font-size: 25px;
+}
+
+#contexto {
+    background: rgba(56, 72, 65, 0.40);
+    height: 400px;
+}
+
+#problema {
+    margin: 0;
+    padding: 90px 100px 50px 100px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 400;
+}
+
+il {
+    list-style-type: none;
+    display: block;
+    margin-bottom: 5px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 150;
+}
+
+#sintomas {
+    background: rgba(56, 72, 65, 0.90);
+    width: 100%;
+    height: 500px;
+}
+
+#beneficios h4 {
+    margin: 0;
+    padding: 90px 500px 10px 500px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#beneficios p {
+    margin: 0;
+    padding: 40px 510px 40px 510px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 150;
+}
+
+li {
+    list-style-type: none;
+    display: block;
+    margin-bottom: 15px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 150;
+}
+
+#beneficios {
+    background: #000;
+    width: 100%;
+    height: 550px;
+}
+
+#chamativo h4 {
+    margin: 0;
+    padding: 70px 120px 20px 120px;
+    text-align: center;
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 150;
+}
+
+#chamativo h5 {
+    margin: 0;
+    padding: 20px 120px 50px 120px;
+    text-align: center;
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 150;
+}
+
+#chamativo {
+    background: rgba(56, 72, 65, 0.90);
+    width: 100%;
+    height: 390px;
+    text-align: center;
+}
+
+button p {
+    color: #384841;
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 800;
+}
+
+button {
+    background-color: #fff;
+    border: 2px solid #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 50px;
+    width: 400px;
+    height: 100px;
+}
+
+button:hover {
+    background-color: #e2e2e2;
+    color: #fff;
+}
+
+#frase {
+    width: 100%;
+    height: 615px;
+    background: #000;
+    text-align: center;
+}
+
+#citacao_1 p {
+    margin: 0px;
+    padding: 40px 1000px 40px 1000px;
+    width: 560px;
+    height: 226px;
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 35px;
+    font-weight: 200;
+}
+
+#citacao_2 p {
+    margin: 0px;
+    padding: 40px 1000px 40px 1000px;
+    width: 560px;
+    height: 226px;
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 35px;
+    font-weight: 200;
+}
+
+#barramento p {
+    margin: 0;
+    padding: 10px 20px;
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#contato p {
+    margin: 0px;
+    padding: 10px 50px;
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#contato {
+    width: 100%;
+    height: 210px;
+    background: #E2E2E2;
+}
+
+#create {
+    background: #000;
+    width: 100%;
+    height: 70px;
+}
+
+#create p {
+    margin: 0px;
+    padding-top: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 400;
+}
